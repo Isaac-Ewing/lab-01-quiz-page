@@ -18,7 +18,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Hevatica', sans-serif;
     background-color: var(--color2);
 }
 
@@ -45,58 +45,12 @@ section {
     border: solid 2px var(--color1);
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-
 .gutter-right {
     margin-right: 20px;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
- 
-.ts-logo {
- margin-left: 60px;
- width: 130px;
- height: auto;
-}
-
-header img {
-    height: var(--header-height);
-}
-
-
-
-content {
-    width: 80%;
-}
-
 p {
     margin: var(--gutter);
-}
-  
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: var(--footer-height);
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
 }
   
   @keyframes pulse {

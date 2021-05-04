@@ -1,6 +1,5 @@
 export function countAsYes(string) {
-    console.log(string[0]);
-    if (string[0].toLowerCase === 'y')
+    if (string[0] === 'y' || string[0] === 'Y')
         return (true);
     return (false);
 }
